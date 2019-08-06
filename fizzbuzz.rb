@@ -4,8 +4,7 @@ require_relative 'spec/fizzbuzz_spec.rb'
 
 def fizzbuzz(int)
   if int % 3 == 0 && int % 5 != 0
-    "Fizz"
-    puts "Fizz"
+    return "Fizz"
 end
 end
 
